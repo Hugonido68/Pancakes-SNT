@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Recette de Pancakes</title>
+<style>
+  body { font-family: 'Arial', sans-serif; line-height: 1.6; margin: 0; padding: 0; }
+  .container { width: 80%; margin: auto; overflow: hidden; }
+  header { background: #50b3a2; color: white; padding-top: 30px; min-height: 70px; border-bottom: #e8491d 3px solid; }
+  header a { color: #ffffff; text-decoration: none; text-transform: uppercase; font-size: 16px; }
+  header ul { padding: 0; list-style: none; }
+  header li { float: left; display: inline; padding: 0 20px 0 20px; }
+  header #branding { float: left; }
+  header #branding h1 { margin: 0; }
+  header nav { float: right; margin-top: 10px; }
+  header .highlight, header .current a { color: #e8491d; font-weight: bold; }
+  header a:hover { color: #ffffff; font-weight: bold; }
+</style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div id="branding">
+        <h1><span class="highlight">Pancakes</span> Maison</h1>
+      </div>
+      <nav>
+        <ul>
+          <li class="current"><a href="index.html">Accueil</a></li>
+          <li><a href="about.html">À propos</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <div class="container">
+    <h2>Recette de Pancakes Délicieux</h2>
+    <p>Cette recette simple et rapide pour des pancakes moelleux sera parfaite pour votre petit déjeuner ou goûter.</p>
+    
+    <h3>Ingrédients :</h3>
+    <ul>
+      <li>2 tasses de farine</li>
+      <li>2 cuillères à soupe de sucre</li>
+      <li>1 cuillère à soupe de levure chimique</li>
+      <li>1/2 cuillère à café de sel</li>
+      <li>2 œufs battus</li>
+      <li>1 tasse de lait</li>
+      <li>4 cuillères à soupe de beurre fondu</li>
+    </ul>
+
+    <h3>Instructions :</h3>
+    <ol>
+      <li>Dans un grand bol, mélangez la farine, le sucre, la levure chimique et le sel.</li>
+      <li>Dans un autre bol, mélangez les œufs, le lait et le beurre fondu.</li>
+      <li>Versez le mélange liquide sur les ingrédients secs et mélangez jusqu'à ce que la pâte soit lisse.</li>
+      <li>Chauffez une poêle légèrement huilée à feu moyen-élevé.</li>
+      <li>Versez ou déposez la pâte à l'aide d'une louche pour former des pancakes.</li>
+      <li>Cuisinez jusqu'à ce que des bulles se forment à la surface, puis retournez et cuisez jusqu'à ce que le dessous soit doré.</li>
+    </ol>
+  </div>
+</body>
+</html>
